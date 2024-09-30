@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(73, 73, 239);
+    width: 100%;
+    height: 580px;
+}
+
+.container2{
+    margin: auto;
+    width: 1120px;
+}
+
+.box1{
+    width: 100%;
+    height: 580px;
+    background-color: rgb(73, 73, 239);
+}
+
+.box1 .navigation{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+}
+
+/* atur navigation */
+
+.he{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+}
+.menu{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.co{
+    font-family: 'Poppins', sans-serif;
+    flex: 1;
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.co p{
+    color: white;
+}
+
+.inco{
+    margin-left: 50px;
+    margin-right: 7px;
+    width: 42px;
+    height: 42px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* atur menu */
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color: rgb(102, 102, 102);
+}
+
+/* hero */
+
+.hero{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.hero .teks{
+    width: 50%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    background-image: url(oker.jpg);
+}
+
+.hero .gambar{
+    width: 50%;
+    height: 380px; 
+    display: flex;
+    align-items: center;  
+}
+
+
+.gambar h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: white;
+    line-height: 50px;
+}
+
+.gambar p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(206, 206, 206);
+}
+
+.cu{
+    display: flex;
+    margin-top: 50px;
+}
+
+.icu{
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icu p{
+    color: rgb(64, 64, 255);
+}
+
+
+.igd{
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgb(73, 73, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.igd p{
+    color: white;
+}
+
+/* container3 */
+/* box2 */
+
+.container3{
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 530px;
+}
+
+.container4{
+    margin: auto;
+    width: 1120px;
+
+}
+
+.box2{
+    width: 100%;
+    height: 530px;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box2 .img{
+    width: 55%;
+    height: 450px;
+    background-image: url(img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.box2 .tekks{
+    width: 35%;
+    height: 380px;
+    text-align: left;
+    margin-top: -70px;
+}
+
+.tekks h1{
+    font-family: 'Work Sans', sans-serif; ;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.tekks p{
+    font-family: 'Work Sans', sans-serif; ;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(127, 127, 127);
+}
+
+.pym{
+    margin-top: 30px;
+    height: 25%;
+    display: flex;
+}
+
+.ip{
+    /* width: 100px;
+    height: 70px; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pym i{
+    background-color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin-top: -41px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.im{
+    margin-left: 20px;
+}
+
+.im h2{
+    font-family: 'Work Sans', sans-serif; ;
+    font-weight: 400;
+    font-size: 18px;
+}
+.im p{
+    font-family: 'Work Sans', sans-serif; ;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.pymm{
+    margin-top: 30px;
+    height: 25%;
+    display: flex;
+}
+
+.ipp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pymm i{
+    background-color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin-top: -41px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.imm{
+    margin-left: 20px;
+}
+
+.imm h2{
+    font-family: 'Work Sans', sans-serif; ;
+    font-weight: 400;
+    font-size: 18px;
+}
+.imm p{
+    font-family: 'Work Sans', sans-serif; ;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* con5 */
+
+.container5{
+    background-color: rgb(73, 73, 239);
+    width: 100%;
+    height: 300px;
+}
+
+.container6{
+    margin: auto;
+    width: 1120px;
+
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container6 .boxx1{
+    width: 28%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.boxx1 .logo{
+    width: 50px;
+    height: 50px;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i{
+    font-size: 45px;
+    color: white;
+}
+
+.boxx1 .isi{
+    width: 81%;
+    height: 90%;
+    margin-left: 30px;
+}
+
+.isi p.j{
+    color: white;
+    font-family: 'Work Sans', sans-serif; ;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.isi p.e{
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(194, 194, 194);
+}
+
+/* container7 */
+.container7{
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 500px;
+}
+
+.container8{
+    margin: auto;
+    width: 1120px;
+    height: 500px;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+    /* text cons7 */
+.text{
+    width: 38%;
+    height: 80%;
+}
+
+.text h2{
+    font-family: 'Work Sans', sans-serif; ;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.boxlogo{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.boxlogo i{
+    font-size: 25px;
+    color: rgb(73, 73, 239) ;
+}
+
+.tekslogo{
+    margin-left: 20px;
+}
+
+.inimage{
+    display: flex;
+    margin-top: 40px;
+}
+
+.text p{
+    font-family: 'Work Sans', sans-serif; ;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ /* image cons78 */
+  
+.image2{
+    width: 58%;
+    height: 80%;
+    background-image: url(oker.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+/* container 9 */
+
+.container9{
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+    height: 1029px;
+}
+
+.container10{
+    margin: auto;
+    background-color: rgb(229, 229, 229);
+    width: 1120px;
+    height: 1010px;
+    padding-top: 20px;
+}
+
+.tulis{
+    padding: 20px;
+}
+
+.tulis h2{
+    font-family: 'Work Sans', sans-serif; 
+    color:  rgb(73, 73, 239);
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.tulis p{
+    font-family: 'Work Sans', sans-serif; 
+    color:  rgb(122, 122, 122);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* grid */
+
+.grid{
+    height: 400px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+
+}
+
+.grid2{
+    height: 400px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.gr1{
+    width: 32%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+}
+
+.gr2{
+    width: 32%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gr3{
+    width: 32%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* kulet */
+.kulet{
+    width: 100%;
+    height: 15%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.bulet{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bulet i{
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+/* faster */
+
+.faster{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.faster h4{
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.faster p{
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* read more */
+
+.readmore{
+    width: 100%;
+    margin-bottom: 45px;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cotac{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(73, 73, 239) ;
+    background-color: white;
+}
+
+.cotac{
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.container11{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(73, 73, 239)  ;
+}
+
+.container12{
+    width: 1120px;
+    background-color:rgb(73, 73, 239)  ;
+    margin: auto;
+    height: 500px;
+   
+}
+
+.ipin{
+    padding: 50px    ;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutt{
+    height: 300px;
+    width: 30%;
+    line-height: 22px;
+}
+
+.aboutt p.a{
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+
+.aboutt p.f{
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+.aboutt p.g a{
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+}
+
+p.g a:hover{
+    color: white;
+}
+
+.comp{
+    height: 300px;
+    width: 30%;
+    line-height: 22px;
+}
+
+.comp p.c{
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+
+.kompeni{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+p.aa a{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif; 
+    color: rgb(163, 163, 163);
+}
+
+p.aa a:hover{
+    color: white;
+}
+
+p.b a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif; 
+    color: rgb(163, 163, 163);
+}
+
+p.b a:hover{
+    color: white;
+}
+
+/* navigation */
+
+.lol{
+    width: 30%;
+    height: 300px;
+}
+p.nav{
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif; 
+    color: white;
+}
+
+p.ao a{
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif; 
+    
+}
+
+p.ao a:hover{
+    color: white;
+    
+}
+
+a.as{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+a.as:hover{
+    color: rgb(175, 175, 255);
+}
+
+p.aus{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif; 
+    color: white;
+}
